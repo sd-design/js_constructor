@@ -1,0 +1,28 @@
+{
+  "name": "js_constructor",
+  "version": "1.0.0",
+  "description": "Javascript pure constructor",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 3000 --open",
+	"build": "parcel build ./src/index.html --no-source-maps",
+	"test": "parcel ./dist/index.html -p 5500 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sd-design/js_constructor.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Alex (alex@sd-design.tk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sd-design/js_constructor/issues"
+  },
+  "homepage": "https://github.com/sd-design/js_constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
