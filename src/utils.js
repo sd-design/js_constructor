@@ -2,18 +2,14 @@ export function row(content){
 	 return `<div class="row">${content}</div>`
 }
 
-export function col(content){
-	 return `<div class="col-sm">${content}</div>`
-}
-
-export function h1(content){
-	 return `<h1>${content}</h1>`
+export function col(content, styles=''){
+	 return `<div class="col-sm ${styles}">${content}</div>`
 }
 
 export function p(content){
 	 return `<p>${content}</p>`
 }
 
-export function img(content){
-	 return `<img src ="${content}" />`
+export function img(content, styles='', alt =''){
+	 return `<img src ="${content}" class="${styles}" alt="${alt}" />`
 }
