@@ -5,3 +5,7 @@ dist/
 dist/*
 .cache/
 .cache/*
+.firebase
+.firebase/
+.firebaserc
+firebase.json
