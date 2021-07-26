@@ -7,8 +7,11 @@ import './css/main.css'
 
 
 const site = new Site('#site')
-
 site.render(model)
-//console.log(templates['title']({type: 'title', value: 'Hi Constructor on JS!'}))
 
-const sidebar = new Sidebar('#panel')
+const updateCallback = newBlock => {
+	model.push(newBlock)
+	site.render(model)
+}
+
+new Sidebar('#panel', updateCallback)
